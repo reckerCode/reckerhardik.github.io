@@ -13,9 +13,7 @@ body {
 
 .container{
 	margin-bottom: 200px;
-}
-h1, button{
-	text-align: center;
+	animation-delay: 1.2s
 }
 hr {
   max-width: 65px;
@@ -33,6 +31,7 @@ header.startup {
   background-size: cover;
   background-repeat: no-repeat;
   height: 100%;
+  animation-delay: 0.5s
 }
 
 header.startufp hr {
@@ -62,6 +61,13 @@ header.startup h1 {
 
 .btn-primary:hover {
   background-color: #ee4b08;
+  border-color: #ee4b08;
+  border-width: 10px;
+  cursor: pointer;
+}
+
+.btn-primary:onclick {
+  background-color: white;
   border-color: #ee4b08;
   border-width: 5px;
   cursor: pointer;
