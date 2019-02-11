@@ -1,0 +1,3 @@
+function add(argument) {
+	// body...
+}
